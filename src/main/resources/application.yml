@@ -41,10 +41,10 @@ server:
 ---
 
 spring:
-  datasource:
-    type: org.apache.commons.dbcp2.BasicDataSource
-    url: jdbc:derby:memory:mydb;create=true
-    driver-class-name: org.apache.derby.jdbc.EmbeddedDriver
+#   datasource:
+#     type: org.apache.commons.dbcp2.BasicDataSource
+#     url: jdbc:derby:memory:mydb;create=true
+#     driver-class-name: org.apache.derby.jdbc.EmbeddedDriver
   profiles: docker
   cloud:
     stream:
